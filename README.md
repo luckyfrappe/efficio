@@ -16,10 +16,10 @@ Built for businesses that move fast and think smarter, Fastlane delivers optimiz
 ## User Experience (UX)
 
 ### Business Goals
--The main goal of this website is to attract B2B clients
--Build professional website that supports lead generation
--Clearly communicating Fastlane’s value and what differentiates it from competitors
--Encourage visitors to take action through strong CTAs
+- The main goal of this website is to attract B2B clients
+- Build professional website that supports lead generation
+- Clearly communicating Fastlane’s value and what differentiates it from competitors
+- Encourage visitors to take action through strong CTAs
 
 ### User Stories
 

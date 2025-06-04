@@ -25,7 +25,7 @@ Built for businesses that move fast and think smarter, Fastlane delivers optimiz
 
 #### User Story 1: First Impression
 
-**As a first-time visitor**, I want the site to be easy to access and navigate, so I want to use it.
+As a first-time visitor, I want the site to be easy to access and navigate, so I want to use it.
 
 **Acceptance Criteria**
 - Works well on desktop, tablet, and mobile
@@ -39,7 +39,7 @@ Built for businesses that move fast and think smarter, Fastlane delivers optimiz
 
 #### User Story 2: Key Benefits
 
-**As a B2B customer**, I want to quickly understand the benefits, so I can decide if Fastlane is worth my time.
+As a potential B2B customer, I want to quickly understand the benefits, so I can decide if Fastlane is worth my time.
 
 **Acceptance Criteria**
 - A section with 3 short benefit cards
@@ -52,7 +52,7 @@ Built for businesses that move fast and think smarter, Fastlane delivers optimiz
 
 #### User Story 3: Explore Services
 
-**As potential B2B client**, I want to see what services Fastlane offers, so I can check if it fits our needs.
+As potential B2B client, I want to see what services Fastlane offers, so I can check if it fits our needs.
 
 **Acceptance Criteria**
 - A section that lists main services
@@ -71,7 +71,7 @@ Built for businesses that move fast and think smarter, Fastlane delivers optimiz
 
 #### User Story 4: Build Trust
 
-**As a decission-maker**, I want to know Fastlane is reliable, so I can feel good about using it.
+As a decission-maker, I want to know Fastlane is reliable, so I can feel good about using it.
 
 **Acceptance Criteria**
 - A “Why Fastlane” section
@@ -83,7 +83,7 @@ Built for businesses that move fast and think smarter, Fastlane delivers optimiz
 
 #### User Story 5: Call-to-Action (CTA)
 
-**As a lead**, I want to easily reach out or book a demo, so I can get started.
+As a lead, I want to easily reach out or book a demo, so I can get started.
 
 **Acceptance Criteria**
 - Clear CTA button on homepage
@@ -94,9 +94,9 @@ Built for businesses that move fast and think smarter, Fastlane delivers optimiz
 - Place buttons in hero and after key sections
 - Create contact form or demo page with company info
 
-## User Story 6: Contact Section & Footer
+#### User Story 6: Contact Section & Footer
 
-**As a visitor**, I want to quickly find contact details, so I can reach out.
+As a visitor, I want to quickly find contact details, so I can reach out.
 
 **Acceptance Criteria**
 - A visible contact section

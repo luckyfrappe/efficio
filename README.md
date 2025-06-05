@@ -10,6 +10,13 @@ Built for businesses that move fast and think smarter, Fastlane delivers optimiz
 
 * [User Experience](#user-experience-ux)
   * [User Stories](#user-stories)
+ 
+* [Design](#design)
+  * [Structure](#structure)
+  * [Wireframes](#wireframes)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
 
 ---
 
@@ -108,3 +115,29 @@ As a visitor, I want to quickly find contact details, so I can reach out.
   - Phone
   - Office
   - Company name
+
+## Design
+
+### Structure
+
+**Landing Page**
+- Hero Section 
+- Key Benefits
+- Teaser with link to full Services page
+- CTA (Get in Touch / Book Demo)
+
+**Services**
+- List of services with icons/visuals
+- Short, benefit-focused descriptions for each service
+- CTA to contact or demo
+
+**About**
+- “Why Fastlane” section
+- Client testimonials
+- Company mission and vision
+- CTA for contacting or demo
+
+**Contact**
+- Contact form
+
+### Wireframes

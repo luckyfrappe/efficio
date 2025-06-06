@@ -164,9 +164,5 @@ As a visitor, I want to quickly find contact details, so I can reach out.
 - Wireframes were created using the Figma platform
 
 ##### Mobile Wireframes
-![Mobile wireframes](documentation/wireframes/mobile/Home.png)
-![Mobile wireframes](documentation/wireframes/mobile/Services.png)
-![Mobile wireframes](documentation/wireframes/mobile/About%20us.png)
-![Mobile wireframes](documentation/wireframes/mobile/Contact.png)
-![Mobile wireframes](documentation/wireframes/mobile/Thank%20you%20page.png)
+![Mobile wireframes](documentation/wireframes/mobile/Mobile%20wireframe%20combined.png)
 

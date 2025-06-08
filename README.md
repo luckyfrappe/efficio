@@ -60,9 +60,9 @@ Built for businesses that move fast and think smarter, FASTLANE delivers optimiz
 
 ## Design
 
-### Structure
+### Features
 
-**Landing Page**
+<!-- Rewrite the whole section as decriptive and add what is common on all pages **Landing Page**
 - Hero Section
 - Key Benefits
 - Teaser with link to full Services page
@@ -80,11 +80,11 @@ Built for businesses that move fast and think smarter, FASTLANE delivers optimiz
 - CTA for contacting or demo
 
 **Contact**
-- Contact form
+- Contact form -->
 
 ### Wireframes
 
-Wireframes were created using the Figma platform for mobile and dekstop
+Wireframes were created for mobile and dekstop
 
 <details>
   <summary>Home page</summary>
@@ -125,3 +125,32 @@ Wireframes were created using the Figma platform for mobile and dekstop
     <img src="documentation/wireframes/desktop/Thank%20you%20page.png" alt="Desktop Thank you">
   </p>
 </details>
+
+## Technologies Used
+
+### Languages Used
+HTML, CSS and Bootstrap
+
+### Frameworks, Libraries & Programs Used
+Figma platform - used to create wireframes
+
+Git - For version control.
+
+Github - To save and store the files for the website.
+
+Bootstrap Version 5.3.6 - The framework for the website.
+
+<a href="https://favicon.io/">Favicon.io</a> - To create favicon.
+
+## Credits
+
+### Code Used
+
+### Content
+The content for this fictional website was written by the developer.
+
+To reflect realistic offerings in the corporate travel industry, some service and feature descriptions were generated with the assistance of ChatGPT (by OpenAI), based on developer's general knowledge about corporate travel and background in B2B sales. This helped ensure the website feels authentic and aligned with real-world industry standards.
+
+### Media
+
+### Acknowledgments

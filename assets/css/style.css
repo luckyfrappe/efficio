@@ -30,6 +30,11 @@ p {
   font-size: 1rem;
 }
 
+/* Remobe standart link color */
+a {
+  color: inherit;
+}
+
 .card {
     margin-bottom: 1.5rem;
 }
@@ -60,6 +65,18 @@ p {
   margin: 0;
 }
 
+main {
+  padding-bottom: 2rem;
+}
+
 #contact {
-  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  padding-top: 1rem;
+  background-color:black;
+  color: aliceblue;
+}
+
+#contact .social i {
+  font-size: 2rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
 }

@@ -1,0 +1,11 @@
+
+
+
+#hero-video {
+  object-fit: cover;
+  position: relative;
+  width: 100vw; /* Take full width of the viewport */
+  height: 60vh; /* Take 60% of the viewport height */
+  /* background-image: ; add fall-back image */
+  overflow: hidden;
+}

@@ -30,7 +30,10 @@ p {
   font-size: 1rem;
 }
 
-
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 /* Make hero video full length and under the navbar */
 #hero-video {
@@ -41,3 +44,4 @@ p {
   /* background-image: ; add fall-back image */
   overflow: hidden;
 }
+

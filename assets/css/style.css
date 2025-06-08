@@ -30,9 +30,8 @@ p {
   font-size: 1rem;
 }
 
-.section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.card {
+    margin-bottom: 1.5rem;
 }
 
 /* Make hero video full length and under the navbar */
@@ -44,4 +43,23 @@ p {
   /* background-image: ; add fall-back image */
   overflow: hidden;
 }
+/* https://getcssscan.com/css-box-shadow-examples?ref=beautifulbuttons-bottom add credit */
+#services-section .card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  min-height: 451px;
+}
 
+#benefits-section .card {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  min-height: 183px;
+}
+
+.hero-text {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  padding: 1rem;
+  margin: 0;
+}
+
+#contact {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}

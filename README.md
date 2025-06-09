@@ -143,7 +143,7 @@ Bootstrap Version 5.3.6 - The framework for the website.
 <a href="https://favicon.io/">Favicon.io</a> - To create favicon.
 
 ## Credits
-
+<!-- images and video from gemini -->
 ### Code Used
 
 ### Content

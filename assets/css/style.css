@@ -112,5 +112,9 @@ main {
 
 /* Services page */
 #services p {
-  font-size: 1.5rem;
+  font-size: 1rem;
+}
+
+.article .row {
+  margin: 6rem 0 6rem 0;
 }

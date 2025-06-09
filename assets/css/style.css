@@ -109,3 +109,8 @@ main {
   padding-left: 2rem;
   padding-top: 2rem;
 }
+
+/* Services page */
+#services p {
+  font-size: 1.5rem;
+}

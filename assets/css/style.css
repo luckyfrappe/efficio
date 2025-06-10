@@ -128,4 +128,16 @@ main {
   padding: 20px;
   border-radius: 8px;
   margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
 }
+
+.why p{
+  font-size: 1.2rem;
+}
+
+.why strong {
+  font-size: 1.5rem;
+}
+

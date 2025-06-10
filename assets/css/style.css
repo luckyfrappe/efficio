@@ -118,3 +118,7 @@ main {
 .article .row {
   margin: 6rem 0 6rem 0;
 }
+
+#mission ul {
+  list-style-type: none;
+}

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Description -->
@@ -46,7 +46,7 @@
     />
     <link rel="manifest" href="assets/images/favicon/site.webmanifest" />
   </head>
-<body class="d-flex flex-column min-vh-100">
+  <body class="d-flex flex-column min-vh-100">
     <header>
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -66,9 +66,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html"
-                  >Home</a
-                >
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="services.html">Services</a>
@@ -77,31 +75,149 @@
                 <a class="nav-link" href="about.html">About us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contact.html">Get in Touch</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contact.html"
+                  >Get in Touch</a
+                >
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-
+    <main>
+      <!-- Get in touch form -->
+      <section class="container">
+        <form class="row g-3">
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              id="first-name"
+              placeholder="Add your first name"
+              name="first-name"
+              required
+            ></textarea>
+            <label for="floatingTextarea">First name</label>
+          </div>
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              placeholder="Add your last name"
+              id="floatingTextarea"
+              name="last-name"
+              required
+            ></textarea>
+            <label for="last-name">Last name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              id="email"
+              placeholder="name@example.com"
+              required
+            />
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              name="phone"
+              type="tel"
+              placeholder="Enter your phone number"
+              id="phone"
+              required
+            ></textarea>
+            <label for="floatingTextarea">Phone number</label>
+          </div>
+          <div class="form-floating">
+            <select
+              class="form-select"
+              name="size"
+              id="size"
+              aria-label="Floating label select example"
+            >
+              <option selected></option>
+              <option value="0-100">0-100 employees</option>
+              <option value="100-1000">100-1000 employees</option>
+              <option value="1000">1000+ employees</option>
+            </select>
+            <label for="size">Select company size</label>
+          </div>
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="comment"
+              style="height: 100px"
+            ></textarea>
+            <label for="comment">Comments</label>
+          </div>
+          <button type="submit" class="btn btn-primary mb-3">Send</button>
+        </form>
+      </section>
+    </main>
     <!-- Footer / contact section -->
     <footer id="contact" class="mt-auto container-fluid">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-6">
             <h3>Fastlane Solutions Ltd.</h3>
-            <p><i class="fa-solid fa-location-dot"></i> 123 Velocity Avenue, Suite 400<br />London, UK, W1A 1AA</p>
-            <p><i class="fa-solid fa-envelope"></i> Email: contact@fastlane-solutions.com <br>
-               <i class="fa-solid fa-phone"></i> Phone: +44 20 7946 0999</p>
+            <p>
+              <i class="fa-solid fa-location-dot"></i> 123 Velocity Avenue,
+              Suite 400<br />London, UK, W1A 1AA
+            </p>
+            <p>
+              <i class="fa-solid fa-envelope"></i> Email:
+              contact@fastlane-solutions.com <br />
+              <i class="fa-solid fa-phone"></i> Phone: +44 20 7946 0999
+            </p>
             <p>© 2025 Fastlane Solutions Ltd. All rights reserved.</p>
           </div>
           <div class="col-12 col-lg-6 social text-center">
-            <span><a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Follow us on X, opens in a new tab"><i class="fa-brands fa-x-twitter"></i></a></span>
-            <span><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Follow us on Facebook, opens in a new tab"><i class="fa-brands fa-facebook-f"></i></a></span>
-            <span><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Follow us on instagram, opens in a new tab"><i class="fa-brands fa-instagram"></i></a></span>
-            <span><a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="Follow us on Linkedin, opens in a new tab"><i class="fa-brands fa-linkedin-in"></i></a></span>
-            <span><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Follow us on YouTube, opens in a new tab"><i class="fa-brands fa-youtube"></i></a></span>
+            <span
+              ><a
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Follow us on X, opens in a new tab"
+                ><i class="fa-brands fa-x-twitter"></i></a
+            ></span>
+            <span
+              ><a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Follow us on Facebook, opens in a new tab"
+                ><i class="fa-brands fa-facebook-f"></i></a
+            ></span>
+            <span
+              ><a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Follow us on instagram, opens in a new tab"
+                ><i class="fa-brands fa-instagram"></i></a
+            ></span>
+            <span
+              ><a
+                href="https://linkedin.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Follow us on Linkedin, opens in a new tab"
+                ><i class="fa-brands fa-linkedin-in"></i></a
+            ></span>
+            <span
+              ><a
+                href="https://www.youtube.com/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Follow us on YouTube, opens in a new tab"
+                ><i class="fa-brands fa-youtube"></i></a
+            ></span>
           </div>
         </div>
       </div>
@@ -139,5 +255,5 @@
       src="https://kit.fontawesome.com/1ca7252419.js"
       crossorigin="anonymous"
     ></script>
-</body>
+  </body>
 </html>

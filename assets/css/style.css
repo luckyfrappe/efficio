@@ -33,7 +33,11 @@ h3 {
 
 p {
   padding-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+
+section {
+  margin-bottom: 5rem;
 }
 
 /* Remobe standart link color */
@@ -111,10 +115,6 @@ main {
 }
 
 /* Services page */
-#services p {
-  font-size: 1rem;
-}
-
 .article .row {
   margin: 6rem 0 6rem 0;
 }
@@ -128,11 +128,11 @@ main {
   margin: 10px;
 }
 
-.why p{
-  font-size: 1.2rem;
-}
-
 .why strong {
   font-size: 1.5rem;
+}
+
+.testimonials .card {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
 

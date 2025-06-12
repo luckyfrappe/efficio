@@ -5,9 +5,10 @@ body {
 }
 
 /* General spacing */
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
   margin-top: 0;
+  font-family: "Merriweather Sans", Arial, sans-serif;
 }
 
 h1 {
@@ -34,6 +35,8 @@ h3 {
 p {
   padding-bottom: 1rem;
   font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-family: "Roboto Flex", Arial, sans-serif;
 }
 
 section {

@@ -142,7 +142,7 @@ main {
   url(../images/airplane.jpg);
   background-repeat: no-repeat;
   background-position:left;
-  background-size: fill;
+  min-height: 635px;
 }
 
 .contact-us {

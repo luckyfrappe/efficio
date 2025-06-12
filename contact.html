@@ -99,17 +99,17 @@
               placeholder="Add your first name"
               name="first-name"
               required
-            ></input>
-            <label for="floatingTextarea">First name</label>
+            />
+            <label for="first-name">First name</label>
           </div>
           <div class="form-floating col-md-6">
             <input
               class="form-control"
               placeholder="Add your last name"
-              id="floatingTextarea"
+              id="last-name"
               name="last-name"
               required
-            ></input>
+            />
             <label for="last-name">Last name</label>
           </div>
           <div class="form-floating col-md-6">
@@ -131,7 +131,7 @@
               placeholder=""
               id="phone"
               required
-            ></input>
+            />
             <label for="phone">Phone number</label>
           </div>
           <div class="form-floating">
@@ -155,10 +155,13 @@
               placeholder="Leave a comment here"
               id="comment"
               style="height: 100px"
+              name="comment"
             ></textarea>
             <label for="comment">Comments</label>
           </div>
-          <button type="submit" class="btn btn-primary mb-3">Send</button>
+          <div>
+            <button type="submit" class="btn btn-light col-lg-4">Send</button>
+          </div>
         </form>
       </section>
     </main>

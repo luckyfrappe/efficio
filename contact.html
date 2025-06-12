@@ -89,29 +89,30 @@
     </header>
     <main>
       <!-- Get in touch form -->
-      <section class="container">
-        <form class="row g-3">
-          <div class="form-floating">
-            <textarea
+      <section class="container" id="contact-us">
+        <h1 class="display-4 text-center">Contact us</h1>
+        <form class="row g-3" action="contact.html" method="get">
+          <div class="form-floating col-md-6">
+            <input
               class="form-control"
               id="first-name"
               placeholder="Add your first name"
               name="first-name"
               required
-            ></textarea>
+            ></input>
             <label for="floatingTextarea">First name</label>
           </div>
-          <div class="form-floating">
-            <textarea
+          <div class="form-floating col-md-6">
+            <input
               class="form-control"
               placeholder="Add your last name"
               id="floatingTextarea"
               name="last-name"
               required
-            ></textarea>
+            ></input>
             <label for="last-name">Last name</label>
           </div>
-          <div class="form-floating mb-3">
+          <div class="form-floating col-md-6">
             <input
               type="email"
               name="email"
@@ -120,18 +121,18 @@
               placeholder="name@example.com"
               required
             />
-            <label for="floatingInput">Email address</label>
+            <label for="email">Email address</label>
           </div>
-          <div class="form-floating">
-            <textarea
+          <div class="form-floating col-md-6">
+            <input
               class="form-control"
               name="phone"
-              type="tel"
-              placeholder="Enter your phone number"
+              type="number"
+              placeholder=""
               id="phone"
               required
-            ></textarea>
-            <label for="floatingTextarea">Phone number</label>
+            ></input>
+            <label for="phone">Phone number</label>
           </div>
           <div class="form-floating">
             <select
@@ -139,8 +140,9 @@
               name="size"
               id="size"
               aria-label="Floating label select example"
+              required
             >
-              <option selected></option>
+              <option value="" selected></option>
               <option value="0-100">0-100 employees</option>
               <option value="100-1000">100-1000 employees</option>
               <option value="1000">1000+ employees</option>

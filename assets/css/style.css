@@ -152,3 +152,7 @@ main {
 .contact-us h1 {
   color: white;
 }
+
+.contact-us .btn-light {
+  min-width: 195px;
+}

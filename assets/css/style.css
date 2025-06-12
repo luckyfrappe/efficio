@@ -138,7 +138,7 @@ main {
 
 .contact-us-body {
   background-image: 
-  linear-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.9)), /* Gemini advice on linear-gradietn */
+  linear-gradient(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.9)), /* Gemini advice on linear-gradietn */
   url(../images/airplane.jpg);
   background-repeat: no-repeat;
   background-position:left;

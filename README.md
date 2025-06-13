@@ -190,8 +190,6 @@ Font Awesome - Import icons.
 
 <a href="http://ami.responsivedesign.is/">Am I Responsive?</a> - To showcase the website on different devices.
 
-<a href="https://shields.io/">Shield.io</a> - To showcase badges in README.
-
 ## Deployment & Local Development
 
 <details>
@@ -240,6 +238,18 @@ To get a local copy of this project up and running on your machine, you have two
     Example: `git clone https://github.com/luckyfrappe/fastlane.git`
   </p>
 </details>
+
+## Testing
+Quality assurance was a continuous part of this project's development lifecycle. Throughout the entire build process, I employed a rigorous testing methodology to ensure the optimal performance and user experience of the Fastlane platform.
+
+My primary focus during testing involved:
+
+- Responsive Design Validation: Meticulous checks were performed across a spectrum of device sizes and orientations to confirm that all features and layouts adapted seamlessly, providing a consistent and intuitive experience regardless of screen dimensions.
+- Feature Verification: Every implemented feature, from navigation elements to interactive forms and content display, was rigorously tested to confirm flawless operation.
+
+I actively utilized browser developer tools (such as Chrome Developer Tools) to resolve any issues promptly as they arose. This proactive approach ensured that all functionalities performed as intended, contributing to a robust and reliable user interface. Any identified discrepancies were addressed to guarantee that all aspects of the website operate perfectly, delivering a smooth and efficient experience.
+
+
 
 ## Credits
 

@@ -166,7 +166,7 @@ Wireframes were created for mobile and dekstop
 
 ### Languages Used
 
-HTML, CSS and Bootstrap
+HTML and CSS.
 
 ### Frameworks, Libraries & Programs Used
 
@@ -178,7 +178,70 @@ Github - To save and store the files for the website.
 
 Bootstrap Version 5.3.6 - The framework for the website.
 
+Google Fonts - Import fonts.
+
+Google Dev Tools - Development. 
+
+Font Awesome - Import icons. 
+
+<a href="https://www.freeconvert.com/">FreeConvert</a> - To downsize and convert the hero video. 
+
 <a href="https://favicon.io/">Favicon.io</a> - To create favicon.
+
+<a href="https://tinypng.com/">Tiny PNG</a> - To downsize the images.
+
+<a href="http://ami.responsivedesign.is/">Am I Responsive?</a> - To showcase the website on different devices.
+
+<a href="https://shields.io/">Shield.io</a> - To showcase badges in README.
+
+## Deployment & Local Development
+
+<details>
+  <summary>Deployment</summary>
+  <p>
+    This project's live version is deployed using **GitHub Pages**. Follow these steps to deploy your own instance:
+
+1.  **Access GitHub:** Sign in to your GitHub account.
+2.  **Navigate to Repository:** Locate the `fastlane` repository for this project.
+3.  **Open Settings:** Click on the "Settings" tab within the repository navigation.
+4.  **Go to Pages:** In the left-hand sidebar, select the "Pages" option.
+5.  **Configure Source:**
+    * Under the "Source" section, choose the `main` branch from the branch dropdown menu.
+    * Select `/(root)` as the folder from the adjacent dropdown.
+6.  **Save Changes:** Click the "Save" button. Your live site will now be accessible at the URL provided by GitHub Pages, typically `https://[your-username].github.io/fastlane/`.
+  </p>
+</details>
+
+### **Local Development**
+
+To get a local copy of this project up and running on your machine, you have two primary methods: Forking and Cloning.
+
+<details>
+  <summary>How to Fork the Repository</summary>
+  <p>
+    Forking creates a personal copy of the repository in your GitHub account, allowing you to make changes without affecting the original project.
+
+1.  Sign In: Log in to your GitHub account.
+2.  Go to Project: Visit the `luckyfrappe/fastlane` repository.
+3.  Initiate Fork: Click the "Fork" button located in the top-right corner of the page. This will create a copy under your own GitHub profile.
+  </p>
+</details>
+
+<details>
+  <summary>How to Clone the Repository</summary>
+  <p>
+    Cloning downloads a full copy of the repository to your local computer, ready for development.
+
+1. Access GitHub: Ensure you are logged into your GitHub account.
+2. Locate Repository: Navigate to the `luckyfrappe/fastlane` repository (or your forked version).
+3. Copy Clone URL: Click on the green "< > Code" button. Choose your preferred method (HTTPS, SSH, or GitHub CLI) and copy the provided URL.
+4. Open Terminal: Launch your terminal or command prompt (e.g., Git Bash, PowerShell, macOS Terminal).
+5. Navigate to Desired Directory: Change your current working directory to where you want to store the project.
+    Example: `cd Desktop/Projects`
+6. Execute Clone Command: Type `git clone` followed by pasting the URL you copied in step 3. Press Enter.
+    Example: `git clone https://github.com/luckyfrappe/fastlane.git`
+  </p>
+</details>
 
 ## Credits
 

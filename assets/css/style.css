@@ -1,14 +1,20 @@
 /* Remove any default margins/padding */
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* General spacing */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 1rem;
   margin-top: 0;
   font-family: "Merriweather Sans", Arial, sans-serif;
+  color: var(--black);
 }
 
 h1 {
@@ -37,6 +43,11 @@ p {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   font-family: "Roboto Flex", Arial, sans-serif;
+  color: var(--black);
+}
+
+nav {
+  background-color: var(--black);
 }
 
 section {
@@ -49,11 +60,20 @@ a {
 }
 
 .card {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 main {
   padding-bottom: 2rem;
+}
+
+/* Adobe color */
+/* Color Theme Swatches in Hex */
+:root {
+  --black: #1a1d26;
+  --gray: #9ca0a6;
+  --blue: #0e3659;
+  --darker-blue: #132b40;
 }
 
 /* Hero section */
@@ -69,22 +89,26 @@ main {
 }
 
 .hero-text {
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
   padding: 1rem;
   margin: 0;
 }
 
 /* https://getcssscan.com/css-box-shadow-examples?ref=beautifulbuttons-bottom add credit */
 #services-section .card {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   min-height: 468px;
 }
 
 /* credit https://www.pexels.com/photo/view-of-cityscape-325185/ */
 .elevate {
-  background-image: 
-  linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), /* Gemini advice on linear-gradietn */
-  url(../images/city.jpg);
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    /* Gemini advice on linear-gradietn */ url(../images/city.jpg);
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -93,7 +117,6 @@ main {
   background-attachment: fixed; /* Make simple Parallax effect */
   margin-top: 2rem;
   margin-bottom: 2rem;
-  
 }
 
 .elevate p {
@@ -101,20 +124,34 @@ main {
 }
 
 #benefits-section .card {
-  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  box-shadow: var(--blue) 0px 0px 0px 3px;
   min-height: 226px;
 }
 
 #contact {
   padding-top: 1rem;
-  background-color:black;
-  color: aliceblue;
+  background-color: var(--black);
+}
+
+/* Had a bug, "," acts as "OR" operator which led to white headers acroos the whole page, so i used contact h1, h2, h3 previously */
+#contact h1,
+#contact h2,
+#contact h3,
+#contact h4,
+#contact h5,
+#contact h6 {
+  color: white;
+}
+
+#contact p {
+  color: white;
 }
 
 #contact .social i {
   font-size: 2rem;
   padding-left: 2rem;
   padding-top: 2rem;
+  color: white;
 }
 
 /* Services page */
@@ -136,24 +173,22 @@ main {
 }
 
 .testimonials .card {
-  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  box-shadow: var(--blue) 0px 0px 0px 3px;
 }
 
 .contact-us-body {
-  background-image: 
-  linear-gradient(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.9)), /* Gemini advice on linear-gradietn */
-  url(../images/airplane.jpg);
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.9)
+    ),
+    /* Gemini advice on linear-gradietn */ url(../images/airplane.jpg);
   background-repeat: no-repeat;
-  background-position:left;
-  min-height: 635px;
+  background-position: left;
+  min-height: 800px;
 }
 
 .contact-us {
   max-width: 600px;
-}
-
-.contact-us h1 {
-  color: white;
 }
 
 .contact-us .btn-light {

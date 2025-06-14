@@ -190,6 +190,8 @@ Font Awesome - Import icons.
 
 <a href="http://ami.responsivedesign.is/">Am I Responsive?</a> - To showcase the website on different devices.
 
+<a href="https://autoprefixer.github.io/">Autoprefixer CSS online</a> - For browser optimisation.
+
 ## Deployment & Local Development
 
 <details>

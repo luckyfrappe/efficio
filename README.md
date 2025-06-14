@@ -2,7 +2,7 @@
 
 This fictional website is inspired by my experience in business travel and B2B sales. It introduces FASTLANE — a next-gen corporate mobility solution that empowers companies to streamline travel programs, reduce costs, and elevate service quality through personalized self-service and smart automation.
 
-<img src="assets/images/testing/Screenshot 2025-06-14 at 21.02.43.png" alt="Mockup image of FASTLANE website on different devices">
+<img src="assets/images/testing/Mockup.png" alt="Mockup image of FASTLANE website on different devices">
 <a href="https://luckyfrappe.github.io/fastlane/" target="_blank" aria-labe="FASTLANE website opens in a new window on Github Pages">View FASTLANE on Github Pages</a>
 
 ## CONTENTS
@@ -85,28 +85,33 @@ This website is designed to provide a seamless and professional experience for m
 
 **Page-Specific Features:**
 
-**Landing Page:** 
-- Hero Section: An impactful introduction setting the tone for effortless corporate travel. 
-- Services Teaser: A concise overview teasing the comprehensive offerings, with a clear link "See all services"to the full Services page, inviting users to explore further. 
-- Key Benefits: Highlights the core advantages of using FASTLANE, 
+**Landing Page:**
+
+- Hero Section: An impactful introduction setting the tone for effortless corporate travel.
+- Services Teaser: A concise overview teasing the comprehensive offerings, with a clear link "See all services"to the full Services page, inviting users to explore further.
+- Key Benefits: Highlights the core advantages of using FASTLANE,
 - CTA: "Get in Touch" button.
 
-**Services Page:** 
-- Presents a magazine like list of FASTLANES's services, enhanced with appropriate images. 
-- Each service includes a concise, benefit-focused description. 
+**Services Page:**
+
+- Presents a magazine like list of FASTLANES's services, enhanced with appropriate images.
+- Each service includes a concise, benefit-focused description.
 - CTA: "Get in Touch" button.
 
-**About us Page:** 
-- Vision: Clearly outlines the company's purpose and future aspirations in connecting people through travel for progress. 
-- "Why Fastlane?" Section: Articulates the unique value proposition and advantages of choosing Fastlane. 
-- Client Testimonials: Showcases positive feedback from satisfied clients, building trust and credibility. 
+**About us Page:**
+
+- Vision: Clearly outlines the company's purpose and future aspirations in connecting people through travel for progress.
+- "Why Fastlane?" Section: Articulates the unique value proposition and advantages of choosing Fastlane.
+- Client Testimonials: Showcases positive feedback from satisfied clients, building trust and credibility.
 - CTA: "Get in Touch" button.
 
-**Contact Page:** 
-- Provides a straightforward contact form for user inquiries. 
+**Contact Page:**
+
+- Provides a straightforward contact form for user inquiries.
 - Includes essential fields such as name, email, and a message area, with clear validation hints for required information.
 
-**Success Page:** 
+**Success Page:**
+
 - Displayed upon successful form submission, providing immediate confirmation to the user.
 
 ### Accessibility Considerations
@@ -178,11 +183,11 @@ Bootstrap Version 5.3.6 - The framework for the website.
 
 Google Fonts - Import fonts.
 
-Google Dev Tools - Development. 
+Google Dev Tools - Development.
 
-Font Awesome - Import icons. 
+Font Awesome - Import icons.
 
-<a href="https://www.freeconvert.com/">FreeConvert</a> - To downsize and convert the hero video. 
+<a href="https://www.freeconvert.com/">FreeConvert</a> - To downsize and convert the hero video.
 
 <a href="https://favicon.io/">Favicon.io</a> - To create favicon.
 
@@ -204,8 +209,8 @@ Font Awesome - Import icons.
 3.  **Open Settings:** Click on the "Settings" tab within the repository navigation.
 4.  **Go to Pages:** In the left-hand sidebar, select the "Pages" option.
 5.  **Configure Source:**
-    * Under the "Source" section, choose the `main` branch from the branch dropdown menu.
-    * Select `/(root)` as the folder from the adjacent dropdown.
+    - Under the "Source" section, choose the `main` branch from the branch dropdown menu.
+    - Select `/(root)` as the folder from the adjacent dropdown.
 6.  **Save Changes:** Click the "Save" button. Your live site will now be accessible at the URL provided by GitHub Pages, typically `https://[your-username].github.io/fastlane/`.
   </p>
 </details>
@@ -235,9 +240,9 @@ To get a local copy of this project up and running on your machine, you have two
 3. Copy Clone URL: Click on the green "< > Code" button. Choose your preferred method (HTTPS, SSH, or GitHub CLI) and copy the provided URL.
 4. Open Terminal: Launch your terminal or command prompt (e.g., Git Bash, PowerShell, macOS Terminal).
 5. Navigate to Desired Directory: Change your current working directory to where you want to store the project.
-    Example: `cd Desktop/Projects`
+   Example: `cd Desktop/Projects`
 6. Execute Clone Command: Type `git clone` followed by pasting the URL you copied in step 3. Press Enter.
-    Example: `git clone https://github.com/luckyfrappe/fastlane.git`
+Example: `git clone https://github.com/luckyfrappe/fastlane.git`
   </p>
 </details>
 
@@ -254,67 +259,73 @@ I actively utilized browser developer tools (such as Chrome Developer Tools) to 
 
 ### Automated Testing
 
-Live Site: https://luckyfrappe.github.io/fastlane/
-
-<p>
-    <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-            alt="Valid CSS!" />
-    </a>
-</p>
+<a href="https://luckyfrappe.github.io/fastlane/">Live site</a>
 
 Automated testing involved the use of various external tools and validators to systematically check the website's code quality, performance, and accessibility.
 
-W3C HTML Validator
+**W3C HTML Validator**
 The W3C Markup Validation Service was utilized to validate the HTML structure of each page, ensuring adherence to web standards.
+<details>
+  <summary>Results</summary>
+  <p>
+    Landing Page (Home):<br>
+    <img src="assets/images/testing/htmltesthome.png" alt="Home page result"><br>
+    Services Page:<br>
+    <img src="assets/images/testing/htmltestservices.png" alt="Services result"><br>
+    About Page:<br>
+    <img src="assets/images/testing/htmltestabout.png" alt="About results"><br>
+    Contact Page:<br>
+    <img src="assets/images/testing/htmltestcontact.png" alt="Cotnact results"><br>
+    Success Page:<br>
+    <img src="assets/images/testing/htmltestsuccess.png" alt="Success results"><br>
+  </p>
+</details><br>
 
-Direct Input Validation:
-
-Landing Page (Home):
-
-Services Page:
-
-About Page:
-
-Contact Page:
-
-Success Page:
-
-CSS Validator
+**CSS Validator**
 The W3C CSS Validation Service was used to ensure the CSS stylesheets conform to standards.
+<details>
+  <summary>Results</summary>
+  <p>
+    <img src="assets/images/testing/csstest.png" alt="CSS test">
+  </p>
+</details><br>
 
-Lighthouse
+**Lighthouse**
 Lighthouse, integrated into Chrome Developer Tools, was used to audit the performance, accessibility and best practices.
 Landing Page (Home):
-Desktop Report:
-Mobile Report:
-Services Page:
-Desktop Report:
-Mobile Report:
-About Page:
-Desktop Report:
-Mobile Report:
-Contact Page:
-Desktop Report:
-Mobile Report:
-Success Page:
-Desktop Report:
-Mobile Report:
+<details>
+  <summary>Results</summary>
+  <p>
+    Landing Page (Home):<br>
+    <img src="assets/images/testing/lighthome.png" alt="Home page result"><br>
+    Services Page:<br>
+    <img src="assets/images/testing/lightsevices.png" alt="Services result"><br>
+    About Page:<br>
+    <img src="assets/images/testing/lightabout.png" alt="About results"><br>
+    Contact Page:<br>
+    <img src="assets/images/testing/lightcontact.png" alt="Cotnact results"><br>
+    Success Page:<br>
+    <img src="assets/images/testing/ligthsuccess.png" alt="Success results"><br>
+  </p>
+</details><br>
 
-WAVE Accessibility Tool
+**WAVE Accessibility Tool**
 The WAVE Web Accessibility Evaluation Tool was utilized to identify accessibility errors on each page.
-
-Landing Page (Home):
-
-Services Page:
-
-About Page:
-
-Contact Page:
-
-Success Page:
-
+<details>
+  <summary>Results</summary>
+  <p>
+    Landing Page (Home):<br>
+    <img src="assets/images/testing/wavehome.png" alt="Home page result"><br>
+    Services Page:<br>
+    <img src="assets/images/testing/waveservices.png" alt="Services result"><br>
+    About Page:<br>
+    <img src="assets/images/testing/waveabout.png" alt="About results"><br>
+    Contact Page:<br>
+    <img src="assets/images/testing/wavecontact.png" alt="Cotnact results"><br>
+    Success Page:<br>
+    <img src="assets/images/testing/wavesuccess.png" alt="Success results"><br>
+  </p>
+</details>
 
 ### Manual Testing
 
@@ -326,11 +337,11 @@ This section outlines specific code-level details regarding bug resolutions and 
 
 ### Full Testing
 
-## BUGS 
+## BUGS
 
 ### Known Bugs
 
-IOS/Android elevate section does not work 
+IOS/Android elevate section does not work
 
 ### Solved Bugs
 
@@ -346,7 +357,6 @@ Resolution: The CSS selector was refined to explicitly target only headings with
 Typo in Hero Section Class:
 Issue: The hero-section element had a typo in its Bootstrap class: caontainer-fluid.
 Resolution: Corrected the class name to container-fluid.
-
 
 ## Credits
 

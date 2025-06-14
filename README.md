@@ -240,6 +240,7 @@ To get a local copy of this project up and running on your machine, you have two
 </details>
 
 ## Testing
+
 Quality assurance was a continuous part of this project's development lifecycle. Throughout the entire build process, I employed a rigorous testing methodology to ensure the optimal performance and user experience of the Fastlane platform.
 
 My primary focus during testing involved:
@@ -248,6 +249,87 @@ My primary focus during testing involved:
 - Feature Verification: Every implemented feature, from navigation elements to interactive forms and content display, was rigorously tested to confirm flawless operation.
 
 I actively utilized browser developer tools (such as Chrome Developer Tools) to resolve any issues promptly as they arose. This proactive approach ensured that all functionalities performed as intended, contributing to a robust and reliable user interface. Any identified discrepancies were addressed to guarantee that all aspects of the website operate perfectly, delivering a smooth and efficient experience.
+
+### Automated Testing
+
+Live Site: https://luckyfrappe.github.io/fastlane/
+
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+Automated Testing
+Automated testing involved the use of various external tools and validators to systematically check the website's code quality, performance, and accessibility.
+
+W3C HTML Validator
+The W3C Markup Validation Service was utilized to validate the HTML structure of each page, ensuring adherence to web standards.
+
+URI Input Validation:
+
+Landing Page (Home):
+Proof: [Insert Link to Validation Results Here]
+Services Page:
+Proof: [Insert Link to Validation Results Here]
+About Page:
+Proof: [Insert Link to Validation Results Here]
+Contact Page:
+Proof: [Insert Link to Validation Results Here]
+Success Page:
+Proof: [Insert Link to Validation Results Here]
+Direct Input Validation:
+(If you chose to validate by direct input, insert screenshots here)
+
+Landing Page (Home):
+Proof:
+Services Page:
+Proof:
+About Page:
+Proof:
+Contact Page:
+Proof:
+Success Page:
+Proof:
+CSS Validator
+The W3C CSS Validation Service was used to ensure the CSS stylesheets conform to standards.
+
+Proof (Direct Input):
+Lighthouse
+Lighthouse, integrated into Chrome Developer Tools, was used to audit the performance, accessibility, best practices, and SEO of each page.
+
+Landing Page (Home):
+Desktop Report:
+(Optional: Mobile Report: )
+Services Page:
+Desktop Report:
+(Optional: Mobile Report: )
+About Page:
+Desktop Report:
+(Optional: Mobile Report: )
+Contact Page:
+Desktop Report:
+(Optional: Mobile Report: )
+Success Page:
+Desktop Report:
+(Optional: Mobile Report: )
+WAVE Accessibility Tool
+The WAVE Web Accessibility Evaluation Tool was utilized to identify accessibility errors on each page.
+
+Landing Page (Home):
+Proof:
+Services Page:
+Proof:
+About Page:
+Proof:
+Contact Page:
+Proof:
+Success Page:
+Proof:
+
+### Manual Testing
 
 
 

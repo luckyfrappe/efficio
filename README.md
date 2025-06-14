@@ -426,24 +426,27 @@ The final check, all functionalities performed as expected.
 
 ## BUGS
 
+Many bugs were identified and successfully resolved throughout the development process as they arose.
+
 ### Known Bugs
 
-IOS/Android elevate section does not work
+- **iOS/Android Parallax Effect: The background-attachment:** fixed property in the .elevate section does not produce the intended parallax effect on iOS and some Android browsers, causing the background image to scroll with the content. This is a common mobile browser limitation.
+- **"Why FASTLANE?" Section Card Stretching (Tablets):** On tablet viewports, the cards within the "Why FASTLANE?" section can stretch excessively, impacting the visual balance of the layout.
 
 ### Solved Bugs
 
-Horizontal Scroll on Mobile:
-Issue: The hero video section caused a horizontal scrollbar on mobile devices, indicating content overflowing to the right.
+- **Horizontal Scroll on Mobile:**<br>
+Issue: The hero video section caused a horizontal scrollbar on mobile devices, indicating content overflowing to the right.<br>
 Resolution: Applied margin-right: 0; to the containing Bootstrap .row and padding-right: 0; to the .video-repsonvise (likely intended as .video-responsive) wrapper. This explicitly removed any extra spacing that caused the overflow.
-iOS Video Autoplay:
+- **iOS Video Autoplay:**
 Issue: Videos might not autoplay inline on iOS devices by default.
-Resolution: Added the playsinline attribute to the <video> tag to enable inline autoplay on iOS.
-CSS Header Color Specificity:
-Issue: A previous CSS bug caused all <h1> to <h6> elements across the entire website to turn white due to an incorrect CSS selector (footer h1, h2, h3,...).
-Resolution: The CSS selector was refined to explicitly target only headings within the <footer> by repeating the footer parent selector for each heading tag (e.g., footer h1, footer h2, ...). (Note: This fix is applied in your CSS sheet, but the comment in HTML flags it as a past bug.)
-Typo in Hero Section Class:
-Issue: The hero-section element had a typo in its Bootstrap class: caontainer-fluid.
-Resolution: Corrected the class name to container-fluid.
+Resolution: Added the playsinline attribute to the video tag to enable inline autoplay on iOS.
+- **CSS Header Color Specificity:** <br>
+Issue: A previous CSS bug caused all h1 to h6 elements across the entire website to turn white due to an incorrect CSS selector (footer h1, h2, h3,...). <br>
+Resolution: The CSS selector was refined to explicitly target only headings within the footer by repeating the footer parent selector for each heading tag (e.g., footer h1, footer h2, ...). (Note: This fix is applied in your CSS sheet, but the comment in HTML flags it as a past bug.)
+- **Typo in Hero Section Class:**<br>
+Issue: The hero-section element had a typo in its Bootstrap class: caontainer-fluid.<br>
+Resolution: Corrected the class name to container-fluid and rewrote styling for the hero-video.
 
 ## Credits
 

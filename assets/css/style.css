@@ -67,6 +67,10 @@ main {
   padding-bottom: 2rem;
 }
 
+.btn {
+  transition-duration: 300ms;
+}
+
 /* Adobe color */
 /* Color Theme Swatches in Hex */
 :root {
@@ -145,6 +149,11 @@ main {
   padding-left: 2rem;
   padding-top: 2rem;
   color: white;
+}
+
+#contact .social i:hover {
+  color: gainsboro;
+  transition-duration: 500ms;
 }
 
 /* Services page */

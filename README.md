@@ -90,7 +90,7 @@ This fictional website is inspired by my experience in business travel and B2B s
 
 ### Color Scheme
 
-<img src="assets/images/AdobeColor-FASTLANE.jpeg">
+<img src="assets/images/AdobeColor-fastlane.jpeg">
 
 This project's design embodies a philosophy of simplicity, utilizing three carefully selected neutral colors to create a refined and uncluttered aesthetic where 'less is more'.
 
@@ -129,7 +129,7 @@ This website is designed to provide a seamless and professional experience for m
 **About us Page:**
 
 - Vision: Clearly outlines the company's purpose and future aspirations in connecting people through travel for progress.
-- "Why Fastlane?" Section: Articulates the unique value proposition and advantages of choosing Fastlane.
+- "Why FASTLANE?" Section: Articulates the unique value proposition and advantages of choosing FASTLANE.
 - Client Testimonials: Showcases positive feedback from satisfied clients, building trust and credibility.
 - CTA: "Get in Touch" button.
 
@@ -143,13 +143,13 @@ This website is designed to provide a seamless and professional experience for m
 - Displayed upon successful form submission, providing immediate confirmation to the user.
 
 ### Future Implementations
-Here are some super simple ideas for future implementations for your Fastlane project, focusing on enhancements primarily achievable with HTML and CSS, suitable for your README:
+Here are some super simple ideas for future implementations for your FASTLANE project, focusing on enhancements primarily achievable with HTML and CSS, suitable for your README:
 
 ---
 
 ### Future Implementations
 
-Plans to further enhance the Fastlane website's user experience and visual appeal. Future implementations could include:
+Plans to further enhance the FASTLANE website's user experience and visual appeal. Future implementations could include:
 
 - Dynamic Service Section Carousels: Implementing a simple carousel (e.g., using Bootstrap's carousel component) within the services section cards to displaymultiple images or variations for each service.
 - Back to Top" Button: Adding a convenient floating button that appears after scrolling down, allowing users to quickly return to the top of long pages.
@@ -250,7 +250,7 @@ Gemini (by Google) - Used for generating custom imagery and video content used o
     This project's live version is deployed using **GitHub Pages**. Follow these steps to deploy your own instance:
 
 1.  **Access GitHub:** Sign in to your GitHub account.
-2.  **Navigate to Repository:** Locate the `fastlane` repository for this project.
+2.  **Navigate to Repository:** Locate the `FASTLANE` repository for this project.
 3.  **Open Settings:** Click on the "Settings" tab within the repository navigation.
 4.  **Go to Pages:** In the left-hand sidebar, select the "Pages" option.
 5.  **Configure Source:**
@@ -293,7 +293,7 @@ Example: `git clone https://github.com/luckyfrappe/fastlane.git`
 
 ## Testing
 
-Quality assurance was a continuous part of this project's development lifecycle. Throughout the entire build process, I employed a rigorous testing methodology to ensure the optimal performance and user experience of the Fastlane platform.
+Quality assurance was a continuous part of this project's development lifecycle. Throughout the entire build process, I employed a rigorous testing methodology to ensure the optimal performance and user experience of the FASTLANE platform.
 
 My primary focus during testing involved:
 
@@ -375,7 +375,7 @@ The WAVE Web Accessibility Evaluation Tool was utilized to identify accessibilit
 ### Manual Testing
 
 Testing User Stories
-Each user story defined for the Fastlane project was thoroughly tested to ensure its successful implementation.
+Each user story defined for the FASTLANE project was thoroughly tested to ensure its successful implementation.
 
 - As a first-time visitor, I want the site to be easy to access and navigate. <br>
 Outcome: The site is fully responsive and navigable across desktop, tablet, and mobile, with a stable layout.

@@ -7,16 +7,37 @@ This fictional website is inspired by my experience in business travel and B2B s
 
 ## CONTENTS
 
-- [User Experience](#user-experience-ux)
-
-  - [User Stories](#user-stories)
-
+## CONTENTS
+- [User Experience (UX)](#user-experience-ux)
+    - [Business Goals](#business-goals)
+    - [User Stories](#user-stories)
 - [Design](#design)
-  - [Structure](#structure)
-  - [Wireframes](#wireframes)
-  - [Colour Scheme](#colour-scheme)
-  - [Typography](#typography)
-  - [Imagery](#imagery)
+    - [Color Scheme](#color-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Wireframes](#wireframes)
+- [Features](#features)
+    - [Common to All Pages](#common-to-all-pages)
+    - [Page-Specific Features](#page-specific-features)
+    - [Future Implementations](#future-implementations)
+    - [Accessibility Considerations](#accessibility-considerations)
+- [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+- [Deployment & Local Development](#deployment--local-development)
+    - [Deployment](#deployment)
+    - [Local Development](#local-development)
+        - [How to Fork the Repository](#how-to-fork-the-repository)
+        - [How to Clone the Repository](#how-to-clone-the-repository)
+- [Testing](#testing-strategy--report)
+    - [Automated Testing](#automated-testing)
+    - [Manual Testing](#manual-testing)
+    - [Bugs](#bugs)
+- [Credits](#credits)
+    - [Code Used](#code-used)
+    - [Content](#content)
+    - [Media](#media)
+    - [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -349,8 +370,59 @@ The WAVE Web Accessibility Evaluation Tool was utilized to identify accessibilit
 Testing User Stories
 Each user story defined for the Fastlane project was thoroughly tested to ensure its successful implementation.
 
+- As a first-time visitor, I want the site to be easy to access and navigate. <br>
+Outcome: The site is fully responsive and navigable across desktop, tablet, and mobile, with a stable layout.
+
+- As a potential B2B customer, I want to quickly understand the benefits.<br>
+Outcome: A clear "Benefits" section on the Landing Page highlights key advantages concisely.
+
+- As a potential B2B client, I want to see what services FASTLANE offers.<br>
+Outcome: Main services are listed on the Landing Page, with a link to a detailed Services Page.
+
+- As a decision-maker, I want to know FASTLANE is reliable.<br>
+Outcome: The About Us page provides our unique value proposition and client testimonials for credibility.
+
+- As a lead, I want to easily reach out or book a demo.<br>
+Outcome: Clear Call-to-Action (CTA) buttons are prominently placed throughout the site, linking to the Contact Page.
+
+- As a visitor, I want to quickly find contact details. <br>
+Outcome: A visible contact section in the Footer provides essential company information and social links.
 
 ### Full Testing
+
+The final check, all functionalities performed as expected. 
+
+**Global Elements:**
+- Navigation Bar (Desktop & Mobile): All links function correctly, branding is visible, and the mobile burger menu works as intended.
+- Footer: All social media and contact links are clickable and lead to correct destinations.
+- Consistency: Overall color scheme and font usage (Merriweather Sans for headings, Roboto Flex for paragraphs) are consistent and readable across all pages.
+
+**Landing Page (Home):**
+- Hero Section: Video autoplays, loops, is muted, plays inline on iOS, and displays responsively without horizontal scroll.
+- Hero Text: Overlaid text and CTA button are correctly displayed and linked.
+- Service Teaser: Cards display correctly, and "See all services" links work.
+- "Elevate" Section: Fixed background image parallax effect functions correctly, excluding iOS/Android.
+- Benefits Section: Cards display correctly with icons, titles, and text.
+
+**Services Page:**
+- Hero Section: Title, paragraph, and image display correctly.
+- Detailed Services: All service blocks (Self-service, Policies, Booking, Expenses) are displayed with correct content and responsive layout.
+- Final CTA: "Get in Touch" button functions correctly.
+
+**About Us Page:**
+- Mission Section: All content, including images and list items with icons, is displayed correctly.
+- "Why FASTLANE?" Section: All three cards (Effortless Management, Optimized Operations, Global Reach) are displayed with correct content.
+- Testimonials: All client testimonial cards are displayed correctly.
+- Final CTA: "Get in Touch" button functions correctly.
+
+**Contact Page:**
+- Form Functionality: All required fields (first name, last name, email, phone, company size) prevent submission without valid input and display appropriate validation messages.
+- Form Submission: Successfully submits the form and redirects to the Success Page.
+- Responsiveness: Form layout adapts correctly to all screen sizes.
+
+**Success Page:**
+- Display: Page loads correctly after form submission with a clear "Thank you!" message.
+- Navigation: "Home page" button correctly links back to the index.
 
 ## BUGS
 

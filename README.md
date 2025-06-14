@@ -217,7 +217,7 @@ Git - For version control.
 
 Github - To save and store the files for the website.
 
-Bootstrap Version 5.3.6 - The framework for the website.
+Bootstrap Version 5.3.6 - The primary front-end framework that provides responsive grid systems, pre-built UI components, and JavaScript functionalities.
 
 Google Fonts - Import fonts.
 
@@ -233,7 +233,11 @@ Font Awesome - Import icons.
 
 <a href="http://ami.responsivedesign.is/">Am I Responsive?</a> - To showcase the website on different devices.
 
-<a href="https://autoprefixer.github.io/">Autoprefixer CSS online</a> - For browser optimisation.
+<a href="https://autoprefixer.github.io/">Autoprefixer CSS online</a> - Applied to add necessary vendor prefixes to CSS properties, ensuring broader browser compatibility.
+
+ChatGPT (by OpenAI) - Used for generating specific service and feature descriptions, ensuring industry relevance and authenticity in the website's content.
+
+Gemini (by Google) - Used for generating custom imagery and video content used on the website, as well as providing extensive debugging assistance and code explanations during development.
 
 ## Deployment & Local Development
 
@@ -450,21 +454,35 @@ Resolution: Corrected the class name to container-fluid and rewrote styling for 
 
 ## Credits
 
-<!-- images and video from gemini -->
-
-<!-- Credits & Attributions:
-Author: The project author is credited in the <head> meta tag: https://github.com/luckyfrappe.
-CSS Box Shadow Examples: Box shadow styles used on cards were inspired by CSS Scan.
-Background Image (Cityscape): The city.jpg used in the .elevate section is from Pexels, specifically: https://www.pexels.com/photo/view-of-cityscape-325185/. -->
-
 ### Code Used
+- Bootstrap 5.3.6: The primary front-end framework used for responsive design and UI components. Sourced from the official Bootstrap CDN.
+- Google Fonts: Imported for custom typography, including Merriweather Sans (for headings) and Roboto Flex (for paragraphs).
+- Font Awesome: Used for scalable vector icons across the site. Integrated via the Font Awesome CDN.
+- CSS Box Shadow Inspiration: The specific box-shadow styles applied to various cards (#services-section .card, #benefits-section .card, .testimonials .card) were inspired by examples found on CSS Scan.
 
 ### Content
 
-The content for this fictional website was written by the developer.
-
-To reflect realistic offerings in the corporate travel industry, some service and feature descriptions were generated with the assistance of ChatGPT (by OpenAI), based on developer's general knowledge about corporate travel and background in B2B sales. This helped ensure the website feels authentic and aligned with real-world industry standards.
+The textual content and overall narrative for this fictional website were a collaborative effort between the developer and AI.
+To reflect realistic offerings in the corporate travel industry, various service and feature descriptions, as well as general website copy, were generated with the assistance of ChatGPT (by OpenAI) and Gemini (by Google). This process leveraged the developer's general knowledge of corporate travel and B2B sales combined with AI's ability to refine phrasing and generate authentic industry-aligned text.
 
 ### Media
 
+Generative AI Imagery & Video: All custom images and the video were created by Gemini by Google.
+
+Royalty-Free Stock Images:
+- Cityscape Background: https://www.pexels.com/photo/view-of-cityscape-325185/
+- Services Page Hero: https://www.pexels.com/photo/man-and-woman-walking-on-the-street-4963388/
+- Services Page - Self-Service: https://www.pexels.com/photo/man-in-black-suit-jacket-holding-smartphone-3778694/
+- Services Page - Analytics: https://www.pexels.com/photo/woman-presenting-at-the-office-8353803/
+- Services Page - Corporate Rates: https://www.pexels.com/photo/low-angle-photo-of-airplane-flying-over-high-rise-buildings-2441844/
+- Services Page - Payment: https://www.pexels.com/photo/man-person-cup-hand-7534804/
+- Contact and Success Pages - Background: https://www.pexels.com/photo/plane-wing-from-airplane-window-2527670/
+- Favicons: Generated using Favicon.io.
+- Image Optimization: Images were compressed and optimized using <a href="https://tinypng.com/">Tiny PNG</a>.
+- Responsive Showcase Image: The screenshot demonstrating website responsiveness was created using <a href="http://ami.responsivedesign.is/">Am I Responsive?</a>.
+- Hero Video Optimization: The hero video was downsized and converted using <a href="https://www.freeconvert.com/">FreeConvert</a>.
+
 ### Acknowledgments
+Huge thanks to everyone who had my back during this intense, chalenging journey.
+To my closest friend: Your support and advice kept me going when things got tough — I truly couldn’t have done it without you. 
+And to my cat James: Thanks for the purrs, the breaks, and the quiet company. You made the chaos feel a bit calmer.

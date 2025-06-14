@@ -262,80 +262,98 @@ Live Site: https://luckyfrappe.github.io/fastlane/
     </a>
 </p>
 
-Automated Testing
 Automated testing involved the use of various external tools and validators to systematically check the website's code quality, performance, and accessibility.
 
 W3C HTML Validator
 The W3C Markup Validation Service was utilized to validate the HTML structure of each page, ensuring adherence to web standards.
 
-URI Input Validation:
-
-Landing Page (Home):
-Proof: [Insert Link to Validation Results Here]
-Services Page:
-Proof: [Insert Link to Validation Results Here]
-About Page:
-Proof: [Insert Link to Validation Results Here]
-Contact Page:
-Proof: [Insert Link to Validation Results Here]
-Success Page:
-Proof: [Insert Link to Validation Results Here]
 Direct Input Validation:
-(If you chose to validate by direct input, insert screenshots here)
 
 Landing Page (Home):
-Proof:
+
 Services Page:
-Proof:
+
 About Page:
-Proof:
+
 Contact Page:
-Proof:
+
 Success Page:
-Proof:
+
 CSS Validator
 The W3C CSS Validation Service was used to ensure the CSS stylesheets conform to standards.
 
-Proof (Direct Input):
 Lighthouse
-Lighthouse, integrated into Chrome Developer Tools, was used to audit the performance, accessibility, best practices, and SEO of each page.
-
+Lighthouse, integrated into Chrome Developer Tools, was used to audit the performance, accessibility and best practices.
 Landing Page (Home):
 Desktop Report:
-(Optional: Mobile Report: )
+Mobile Report:
 Services Page:
 Desktop Report:
-(Optional: Mobile Report: )
+Mobile Report:
 About Page:
 Desktop Report:
-(Optional: Mobile Report: )
+Mobile Report:
 Contact Page:
 Desktop Report:
-(Optional: Mobile Report: )
+Mobile Report:
 Success Page:
 Desktop Report:
-(Optional: Mobile Report: )
+Mobile Report:
+
 WAVE Accessibility Tool
 The WAVE Web Accessibility Evaluation Tool was utilized to identify accessibility errors on each page.
 
 Landing Page (Home):
-Proof:
+
 Services Page:
-Proof:
+
 About Page:
-Proof:
+
 Contact Page:
-Proof:
+
 Success Page:
-Proof:
+
 
 ### Manual Testing
 
+Testing User Stories
+Each user story defined for the Fastlane project was thoroughly tested to ensure its successful implementation.
+
+Summary of Bug Fixes & Credits (Fastlane Website)
+This section outlines specific code-level details regarding bug resolutions and external asset attribution within the index.html file.
+
+### Full Testing
+
+## BUGS 
+
+### Known Bugs
+
+IOS/Android elevate section does not work 
+
+### Solved Bugs
+
+Horizontal Scroll on Mobile:
+Issue: The hero video section caused a horizontal scrollbar on mobile devices, indicating content overflowing to the right.
+Resolution: Applied margin-right: 0; to the containing Bootstrap .row and padding-right: 0; to the .video-repsonvise (likely intended as .video-responsive) wrapper. This explicitly removed any extra spacing that caused the overflow.
+iOS Video Autoplay:
+Issue: Videos might not autoplay inline on iOS devices by default.
+Resolution: Added the playsinline attribute to the <video> tag to enable inline autoplay on iOS.
+CSS Header Color Specificity:
+Issue: A previous CSS bug caused all <h1> to <h6> elements across the entire website to turn white due to an incorrect CSS selector (footer h1, h2, h3,...).
+Resolution: The CSS selector was refined to explicitly target only headings within the <footer> by repeating the footer parent selector for each heading tag (e.g., footer h1, footer h2, ...). (Note: This fix is applied in your CSS sheet, but the comment in HTML flags it as a past bug.)
+Typo in Hero Section Class:
+Issue: The hero-section element had a typo in its Bootstrap class: caontainer-fluid.
+Resolution: Corrected the class name to container-fluid.
 
 
 ## Credits
 
 <!-- images and video from gemini -->
+
+<!-- Credits & Attributions:
+Author: The project author is credited in the <head> meta tag: https://github.com/luckyfrappe.
+CSS Box Shadow Examples: Box shadow styles used on cards were inspired by CSS Scan.
+Background Image (Cityscape): The city.jpg used in the .elevate section is from Pexels, specifically: https://www.pexels.com/photo/view-of-cityscape-325185/. -->
 
 ### Code Used
 

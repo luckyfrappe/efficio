@@ -1,6 +1,6 @@
 # FASTLANE Corporate Mobility - Testing Documentation
 
-<img src="assets/images/testing/Mockup.png" alt="Mockup image of FASTLANE website on different devices">
+<img src="assets/images/testing/amiresponsive.png" alt="Mockup image of FASTLANE website on different devices">
 <a href="https://luckyfrappe.github.io/fastlane/" target="_blank" aria-labe="FASTLANE website opens in a new window on Github Pages">View FASTLANE on Github Pages</a>
 
 ## Contents

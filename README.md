@@ -74,7 +74,7 @@ This fictional website is inspired by my experience in business travel and B2B s
 - Clear CTA button on homepage
 - CTA links to contact or demo form
 
-**As a visitor, I want to quickly find contact details, so I can reach out**
+**As a general and returning visitor, I want to quickly find contact details, so I can reach out**
 
 - A visible contact section
 - Footer with essential company info and links

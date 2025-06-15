@@ -88,7 +88,7 @@ This fictional website is inspired by my experience in business travel and B2B s
 
 ### Color Scheme
 
-<img src="assets/images/AdobeColor-fastlane.jpeg">
+<img src="assets/images/AdobeColor-FASTLANE.jpeg">
 
 This project's design embodies a philosophy of simplicity, utilizing three carefully selected neutral colors to create a refined and uncluttered aesthetic where 'less is more'.
 

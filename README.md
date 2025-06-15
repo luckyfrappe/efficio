@@ -136,15 +136,10 @@ This website is designed to provide a seamless and professional experience for m
 - Displayed upon successful form submission, providing immediate confirmation to the user.
 
 ### Future Implementations
-Here are some super simple ideas for future implementations for your FASTLANE project, focusing on enhancements primarily achievable with HTML and CSS, suitable for your README:
 
----
+Future implementations could include:
 
-### Future Implementations
-
-Plans to further enhance the FASTLANE website's user experience and visual appeal. Future implementations could include:
-
-- Dynamic Service Section Carousels: Implementing a simple carousel (e.g., using Bootstrap's carousel component) within the services section cards to displaymultiple images or variations for each service.
+- Fixed navigation bar makes easier to use website on mobile devices. 
 - Back to Top" Button: Adding a convenient floating button that appears after scrolling down, allowing users to quickly return to the top of long pages.
 Themed Loading Animations: Creating simple CSS animations for page transitions or form submissions to provide visual feedback to the user.
 

@@ -7,8 +7,6 @@ This fictional website is inspired by my experience in business travel and B2B s
 
 ## CONTENTS
 
-## CONTENTS
-
 * [User Experience (UX)](#user-experience-ux)  
   * [Business Goals](#business-goals)  
   * [User Stories](#user-stories)  
@@ -480,7 +478,7 @@ Royalty-Free Stock Images:
 - Services Page - Corporate Rates: https://www.pexels.com/photo/low-angle-photo-of-airplane-flying-over-high-rise-buildings-2441844/
 - Services Page - Payment: https://www.pexels.com/photo/man-person-cup-hand-7534804/
 - Contact and Success Pages - Background: https://www.pexels.com/photo/plane-wing-from-airplane-window-2527670/
-- Favicons: Generated using Favicon.io.
+- Favicons: Generated using <a href="https://favicon.io/">Favicon.io</a>.
 - Image Optimization: Images were compressed and optimized using <a href="https://tinypng.com/">Tiny PNG</a>.
 - Responsive Showcase Image: The screenshot demonstrating website responsiveness was created using <a href="http://ami.responsivedesign.is/">Am I Responsive?</a>.
 - Hero Video Optimization: The hero video was downsized and converted using <a href="https://www.freeconvert.com/">FreeConvert</a>.

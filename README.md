@@ -286,10 +286,10 @@ For testing details, known issues, and resolved bugs, see [TESTING.md](TESTING.m
 ## Credits
 
 ### Code Used
-- Bootstrap 5.3.6: The primary front-end framework used for responsive design and UI components. Sourced from the official Bootstrap CDN.
-- Google Fonts: Imported for custom typography, including Merriweather Sans (for headings) and Roboto Flex (for paragraphs).
-- Font Awesome: Used for scalable vector icons across the site. Integrated via the Font Awesome CDN.
-- CSS Box Shadow Inspiration: The specific box-shadow styles applied to various cards (#services-section .card, #benefits-section .card, .testimonials .card) were inspired by examples found on CSS Scan.
+- <a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap 5.3.6</a>: The primary front-end framework used for responsive design and UI components. Sourced from the official Bootstrap CDN.
+- <a href="https://fonts.google.com/" target="_blank" rel="noopener">Google Fonts</a>: Imported for custom typography, including Merriweather Sans (for headings) and Roboto Flex (for paragraphs).
+- <a href="https://fontawesome.com/" target="_blank" rel="noopener">Font Awesome</a>: Used for scalable vector icons across the site. Integrated via the Font Awesome CDN.
+- CSS Box Shadow Inspiration: The specific box-shadow styles applied to various cards (#services-section .card, #benefits-section .card, .testimonials .card) were inspired by examples found on <a href="https://getcssscan.com/css-box-shadow-examples?ref=beautifulbuttons-bottom" rel="noopener" target="_blank">CSS Scan</a>.
 
 ### Content
 

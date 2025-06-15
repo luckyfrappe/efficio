@@ -141,7 +141,7 @@ Future implementations could include:
 
 - Fixed navigation bar makes easier to use website on mobile devices. 
 - Back to Top" Button: Adding a convenient floating button that appears after scrolling down, allowing users to quickly return to the top of long pages.
-Themed Loading Animations: Creating simple CSS animations for page transitions or form submissions to provide visual feedback to the user.
+- Themed Loading Animations: Creating simple CSS animations for page transitions or form submissions to provide visual feedback to the user.
 
 ### Accessibility Considerations
 

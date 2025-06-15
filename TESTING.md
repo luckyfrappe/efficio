@@ -97,20 +97,20 @@ The WAVE Web Accessibility Evaluation Tool was utilized to identify accessibilit
 ### Manual Testing
 
 | User Story | Expected Outcome | Testing Performed | Result | Pass/Fail |
-|------------|------------------|-------------------|--------|------------|
-| First-time visitor | Site is accessible and easy to navigate | Tested across desktop, tablet, and mobile | Layout stable and responsive | Pass |
-| Potential B2B customer | Quickly understand the benefits | Viewed Benefits section on Landing Page | Clear and concise advantages shown | Pass |
-| Potential B2B client | View list of services | Checked Landing Page + Services Page link | Services listed and linked correctly | Pass |
-| Decision-maker | Assess company reliability | Reviewed About Us page | Unique value and testimonials displayed | Pass |
-| Lead | Easily reach out or book demo | Clicked CTA buttons | Redirects to Contact Page | Pass |
-| General visitor | Quickly find contact details | Viewed footer | Company info and social links visible | Pass |
+|------------|------------------|-------------------|--------|-----------|
+| First-time visitor | Site is accessible and easy to navigate | Tested across desktop, tablet, and mobile | Layout stable and responsive ![Responsive Showcase](assets/images/testing/homepage.png)![Responsive Showcase](assets/images/testing/mobilehomepage.png) | Pass |
+| Potential B2B customer | Quickly understand the benefits | Viewed Benefits section on Landing Page | Clear and concise advantages shown ![Benefits Showcase](assets/images/testing/benefits.png)![Benefits Showcase](assets/images/testing/benefitsmobile.png) | Pass |
+| Potential B2B client | View list of services | Checked Landing Page + Services Page link | Services listed and linked correctly ![Services Showcase](assets/images/testing/services.png)![Services Showcase](assets/images/testing/servicesmobile.png)![Services page Showcase](assets/images/testing/servicespage.png)![Services page Showcase](assets/images/testing/servicespagemobile.png) | Pass |
+| Decision-maker | Assess company reliability | Reviewed About Us page | Unique value and testimonials displayed ![About Us Showcase](assets/images/testing/about.png)![About Us mobile Showcase](assets/images/testing/aboutmobile.png)![About Us page Showcase](assets/images/testing/success.png)![About Us mobile page Showcase](assets/images/testing/successmobile.png) | Pass |
+| Lead | Easily reach out or book demo | Clicked CTA buttons | Redirects to Contact Page ![CTA Showcase](assets/images/testing/cta.png)![Contact page Showcase](assets/images/testing/contact.png)![Contact mobile page Showcase](assets/images/testing/contactmobile.png) | Pass |
+| Returning visitor | Quickly find contact details | Viewed footer | Company info and social links visible ![Footer Showcase](assets/images/testing/footer.png)![Footer mobile Showcase](assets/images/testing/footermobile.png) | Pass |
 
 ### Full Testing
 
 The final check, all functionalities performed as expected. 
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
-|---------|------------------|-------------------|--------|------------|
+|---------|------------------|-------------------|--------|-----------|
 | Navigation Bar | All links work, branding visible, burger menu functions | Tested on all devices | All functional | Pass |
 | Footer | Social media and contact links work | Clicked each one | All correct destinations | Pass |
 | Fonts & Colors | Consistent font and color scheme | Reviewed across all pages | Merriweather Sans & Roboto Flex used correctly | Pass |

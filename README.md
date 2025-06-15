@@ -2,7 +2,7 @@
 
 This fictional website is inspired by my experience in business travel and B2B sales. It introduces FASTLANE — a next-gen corporate mobility solution that empowers companies to streamline travel programs, reduce costs, and elevate service quality through personalized self-service and smart automation.
 
-<img src="assets/images/testing/Mockup.png" alt="Mockup image of FASTLANE website on different devices">
+<img src="assets/images/testing/mockup.png" alt="Mockup image of FASTLANE website on different devices">
 <a href="https://luckyfrappe.github.io/fastlane/" target="_blank" aria-labe="FASTLANE website opens in a new window on Github Pages">View FASTLANE on Github Pages</a>
 
 ## CONTENTS

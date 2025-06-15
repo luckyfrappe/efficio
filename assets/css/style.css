@@ -66,7 +66,7 @@ a {
 main {
   padding-bottom: 2rem;
 }
-
+/* Add animations */
 .btn {
   -webkit-transition-duration: 300ms;
        -o-transition-duration: 300ms;
@@ -93,9 +93,7 @@ main {
   display: block;
 }
 
-
-
-/* https://getcssscan.com/css-box-shadow-examples?ref=beautifulbuttons-bottom add credit */
+/* https://getcssscan.com/css-box-shadow-examples?ref=beautifulbuttons-bottom borrowed code */
 #services-section .card {
   -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -143,39 +141,6 @@ main {
   min-height: 226px;
 }
 
-#contact {
-  padding-top: 1rem;
-  background-color: var(--black);
-}
-
-/* Had a bug, "," acts as "OR" operator which led to white headers acroos the whole page, so i used contact h1, h2, h3 previously */
-#contact h1,
-#contact h2,
-#contact h3,
-#contact h4,
-#contact h5,
-#contact h6 {
-  color: white;
-}
-
-#contact p {
-  color: white;
-}
-
-#contact .social i {
-  font-size: 2rem;
-  padding-left: 2rem;
-  padding-top: 2rem;
-  color: white;
-}
-
-#contact .social i:hover {
-  color: gainsboro;
-  -webkit-transition-duration: 500ms;
-       -o-transition-duration: 500ms;
-          transition-duration: 500ms;
-}
-
 /* Services page */
 .article .row {
   margin: 6rem 0 6rem 0;
@@ -206,6 +171,7 @@ main {
       from(rgba(255, 255, 255, 1)),
       to(rgba(255, 255, 255, 0.9))
     ),
+    /* credit https://www.pexels.com/photo/plane-wing-from-airplane-window-2527670/ */
     /* Gemini advice on linear-gradietn */ url(../images/airplane.jpg);
   background-image: -o-linear-gradient(
       rgba(255, 255, 255, 1),
@@ -228,4 +194,37 @@ main {
 
 .contact-us .btn-light {
   min-width: 195px;
+}
+
+/* Footer */
+#contact {
+  padding-top: 1rem;
+  background-color: var(--black);
+}
+
+#contact h1,
+#contact h2,
+#contact h3,
+#contact h4,
+#contact h5,
+#contact h6 {
+  color: white;
+}
+
+#contact p {
+  color: white;
+}
+
+#contact .social i {
+  font-size: 2rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  color: white;
+}
+
+#contact .social i:hover {
+  color: gainsboro;
+  -webkit-transition-duration: 500ms;
+       -o-transition-duration: 500ms;
+          transition-duration: 500ms;
 }

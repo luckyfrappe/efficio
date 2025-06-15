@@ -341,14 +341,19 @@ Landing Page (Home):
   <p>
     Landing Page (Home):<br>
     <img src="assets/images/testing/lighthome.png" alt="Home page result"><br>
+    <img src="assets/images/testing/lightmobilehome.png" alt="Home mobile page result"><br>
     Services Page:<br>
-    <img src="assets/images/testing/lightsevices.png" alt="Services result"><br>
+    <img src="assets/images/testing/lightsevices.png" alt="Services page result"><br>
+    <img src="assets/images/testing/lightmobileservices.png" alt="Services mobile page result"><br>
     About Page:<br>
-    <img src="assets/images/testing/lightabout.png" alt="About results"><br>
+    <img src="assets/images/testing/lightabout.png" alt="About page results"><br>
+    <img src="assets/images/testing/lightmobileabout.png" alt="About mobile page result"><br>
     Contact Page:<br>
     <img src="assets/images/testing/lightcontact.png" alt="Cotnact results"><br>
+    <img src="assets/images/testing/lightmobilecontact.png" alt="Contact mobile page result"><br>
     Success Page:<br>
     <img src="assets/images/testing/ligthsuccess.png" alt="Success results"><br>
+    <img src="assets/images/testing/lightmobilesuccess.png" alt="Success mobile page result">
   </p>
 </details><br>
 
